@@ -30,17 +30,17 @@ export class NodeMenuComponent implements OnInit, OnDestroy {
       cssClass: 'new-tag'
     },
     {
-      name: 'New folder',
+      name: '添加子部门',
       action: NodeMenuItemAction.NewFolder,
       cssClass: 'new-folder'
     },
     {
-      name: 'Rename',
+      name: '编辑部门名称',
       action: NodeMenuItemAction.Rename,
       cssClass: 'rename'
     },
     {
-      name: 'Remove',
+      name: '删除部门',
       action: NodeMenuItemAction.Remove,
       cssClass: 'remove'
     }

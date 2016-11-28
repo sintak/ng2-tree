@@ -38,6 +38,7 @@ import { styles } from './tree.styles';
     </li>
   </ul>
   `
+  // templateUrl: './tree.component.html'
 })
 export class TreeInternalComponent implements OnInit {
   @Input()
@@ -177,7 +178,11 @@ export class TreeInternalComponent implements OnInit {
   private getFoldingTypeCssClass(node: TreeModel): string {
     if (!node._foldingType) {
       if (node.children) {
-        node._foldingType = FoldingType.Expanded;
+        if (this.parentTree) {
+          node._foldingType = FoldingType.Collapsed;
+        } else {
+          node._foldingType = FoldingType.Expanded;
+        }
       } else {
         node._foldingType = FoldingType.Leaf;
       }
