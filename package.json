@@ -5,13 +5,13 @@
   "main": "index.js",
   "license": "MIT",
   "author": {
-    "name": "Georgii Rychko",
-    "email": "rychko.georgiy@gmail.com"
+    "name": "Peak Leung",
+    "email": "sintak@126.com"
   },
   "homepage": "https://github.com/sintak/ng2-tree",
   "repository": {
     "type": "git",
-    "url": "git@github.com:valor-software/ng2-tree.git"
+    "url": "git@github.com:sintak/ng2-tree.git"
   },
   "bugs": {
     "url": "https://github.com/sintak/ng2-tree/issues"
